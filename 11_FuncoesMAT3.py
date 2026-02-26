@@ -1,3 +1,5 @@
+import math
+
 "Antes de começar quero enteder a diferença entre average e média, e também a diferença entre median e mediana."
 
 "Claro! Vamos esclarecer as diferenças entre esses termos:"
@@ -6,8 +8,6 @@
 
 "No caso eu queia testar a diferença da função average e média, e também a diferença entre median e mediana usando o código abaixo:"
 
-
-import math
 
 "average = 1, 2, 3"
 "average(1, 2, 3)"
@@ -43,3 +43,34 @@ print(media(1, 2, 3))
 "Mas então qual a diferença entre average e media ?"
 "Em Python, `average` e `media` são apenas nomes diferentes para a mesma função. Ambas calculam a média aritmética de um conjunto de números. O nome `average` é mais comum em contextos de programação em inglês, enquanto `media` é uma tradução direta do termo em português."
 # WOW, incrivel !!
+# Pq ta dizendo que eu não usei import math chat ?
+# A função perimeter NÃO é do math. Você precisa criar ela customizada.
+# O math tem funções como sqrt, pi, sin, cos, etc.
+
+
+# Exemplo de função perimeter (perímetro):
+def perimeter_circle(radius):
+    return 2 * math.pi * radius
+
+
+def perimeter_square(side):
+    return 4 * side
+
+
+def perimeter_rectangle(length, width):
+    return 2 * (length + width)
+
+
+# Exemplos de funções do math:
+print(math.sqrt(16))  # Raiz quadrada: 4.0
+print(math.pi)  # Pi: 3.14159...
+print(math.sin(math.pi / 2))  # Seno: 1.0
+print(math.cos(0))  # Cosseno: 1.0
+print(math.floor(3.9))  # Arredonda p/ baixo: 3
+print(math.ceil(3.1))  # Arredonda p/ cima: 4
+
+# Testando seus perímetros:
+print(perimeter_circle(5))  # Perímetro do círculo
+print(perimeter_square(4))  # Perímetro do quadrado
+print(perimeter_rectangle(5, 3))  # Perímetro do retângulo
+"Entendi  melhor agora, mas então tá diferente do livro..."

@@ -16,14 +16,14 @@ animais.remove("papagaio")
 print(animais)
 animais.sort()
 "Como usar o sort para ordenar a lista em ordem alfabética ?"
-# Já tá e eu não vi kkkkkk
+# Já tá e eu não vi
 print(animais)
 animais.reverse()
 print(animais)
 animais.index("gato")
 print(animais.index("gato"))
 "Não sei usar o index"
-# Acho que entedi kkkkk
+# Acho que entedi,ufa
 len(animais)
 # Len sem print não mostra nada
 print(len(animais))

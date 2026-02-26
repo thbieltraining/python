@@ -1,3 +1,5 @@
+import math
+
 "Vou começar com um def direto já"
 
 a = 1
@@ -18,7 +20,7 @@ def perimeter(a):
 print(perimeter(a))
 # Agora sim, isso é um perímetro de um quadrado, mas e se eu quiser o perímetro de um circulo ?
 "Eu tava esquecendo de usar a biblioteca math"
-import math
+"#import math"
 
 perimeter(1)
 print(perimeter(1))
@@ -50,3 +52,4 @@ def perimeter(a):
 a = 1
 print(perimeter(a))
 # Agora sim, isso é o perímetro de um círculo de raio 1, uhuuuu
+"#Aqui tomei xingo do terminal, porque não usei a hierarquia do código, mas agora entendi que a função tem que ser definida antes de ser chamada, e não depois, como eu fiz no começo, mas tudo bem, faz parte do processo de aprendizado"
