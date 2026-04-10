@@ -1,0 +1,2 @@
+# Eai, tudo bem ? Esse texto aqui é para marcar o segundo semestre do curso de Python, onde vamos aprender mais sobre a linguagem e suas aplicações. Vamos explorar conceitos avançados, bibliotecas populares e projetos práticos para consolidar nosso conhecimento. Prepare-se para uma jornada emocionante no mundo da programação!
+"Eu acredito que vou errar muuito aqui, mas isso é um começo para poder acertar depois, então assim seguimos aprendendo e evoluindo"
