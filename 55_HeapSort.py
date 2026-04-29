@@ -43,3 +43,5 @@ def heap_sort(arr):
 print(heap_sort([12, 11, 13, 5, 6, 7]))
 # Saída: [5, 6, 7, 11, 12, 13]
 "Esse código implementa o Heap Sort em Python. A função 'heapify' é responsável por manter a propriedade do heap, enquanto a função 'heap_sort' constrói o heap e extrai os elementos para ordenar o array. O resultado é um array ordenado em ordem crescente."
+"É um pouco mais complexo do que os outros algoritmos de ordenação que vimos, mas é eficiente para grandes conjuntos de dados e tem a vantagem de ser um algoritmo in-place, o que significa que não requer espaço adicional significativo para ordenar o array."
+"O Heap Sort é uma ótima escolha para ordenar grandes conjuntos de dados, especialmente quando a memória é limitada, e é um algoritmo importante para entender no contexto de algoritmos de ordenação."
